@@ -1,0 +1,14 @@
+**/__pycache__/**
+.vscode
+*.pyc
+data/images
+data/calibration/**/poses/**
+data/calibration/*.tiff
+data/weights/**
+logs/
+venv/
+.idea/
+**/.VSCodeCounter/**
+networks/pvn/
+test_**
+profiling_logs/*

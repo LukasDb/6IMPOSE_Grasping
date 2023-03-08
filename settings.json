@@ -1,0 +1,66 @@
+{
+  "Backdrop Screen Settings": {
+    "screen_res": [
+      3840,
+      2160
+    ],
+    "screen_ar": [
+      16,
+      9
+    ],
+    "screen_diag": 0.8001
+  },
+  "Acquisition Trajectory": {
+    "center": [
+      0.26,
+      -0.5,
+      0.1
+    ],
+    "jitter": [
+      0.04,
+      0.04,
+      0.04,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "max_angle": 0.25,
+    "steps": 10,
+    "radius": 0.25
+  },
+  "Obstruction PointCloud": {
+    "stride": 4,
+    "remove_tolerance": 0.01,
+    "persistency": 1.0,
+    "voxel size": 0.0
+  },
+  "Rendering": {
+    "show_axes": false,
+    "ibl_intensity": 30000,
+    "shader": "defaultLit",
+    "base_reflectance": 0.0,
+    "base_roughness": 0.4
+  },
+  "Object Detection": {
+    "confidence": 0.05,
+    "FPS": 30
+  },
+  "PoseDetection": {
+    "Score Threshold": 0.003
+  },
+  "Realsense": {
+    "Update": false,
+    "temporal_filter": true,
+    "spatial_filter": true,
+    "temporal": {
+      "alpha": 0.2,
+      "delta": 5
+    },
+    "spatial": {
+      "alpha": 0.5,
+      "delta": 20,
+      "magnitude": 2,
+      "hole_fill": 1
+    }
+  }
+}
